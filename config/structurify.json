@@ -1,6 +1,6 @@
 {
   "config_version": "2.0.33",
-  "config_datetime": "2026-08-20_19-40-39",
+  "config_datetime": "2026-08-23_16-47-39",
   "general": {
     "disable_all_structures": false,
     "prevent_structure_overlap": true,
@@ -220,6 +220,10 @@
       "is_disabled": true
     },
     {
+      "name": "iceandfire:fire_dragon_roost",
+      "is_disabled": true
+    },
+    {
       "name": "iceandfire:gorgon_temple",
       "is_disabled": true
     },
@@ -229,6 +233,14 @@
     },
     {
       "name": "iceandfire:hydra_cave",
+      "is_disabled": true
+    },
+    {
+      "name": "iceandfire:ice_dragon_roost",
+      "is_disabled": true
+    },
+    {
+      "name": "iceandfire:lightning_dragon_roost",
       "is_disabled": true
     },
     {
