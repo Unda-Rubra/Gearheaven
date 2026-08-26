@@ -1258,6 +1258,11 @@ hash = "6fb8655790cb6ab5a46718ab2b49e76e527b90bdd500040f75f9fe15cd5b1364"
 metafile = true
 
 [[files]]
+file = "mods/one-enough-block.pw.toml"
+hash = "b5efb0db2bb69d5d1f940497bc634ed0268ca8db192947bb01f361292cb4ebaf"
+metafile = true
+
+[[files]]
 file = "mods/one-enough-item.pw.toml"
 hash = "b542a9fd0260d17b5c9b7e860d03a4989ef1e1cb81b9d20bddadff9ab65aa679"
 metafile = true

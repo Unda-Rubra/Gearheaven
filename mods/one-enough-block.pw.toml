@@ -1,0 +1,13 @@
+name = "One Enough Block"
+filename = "oneenoughblock-neoforge-1.21.1-1.1.2-hotfix.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/gP7RIb0Q/versions/PDVoFCX9/oneenoughblock-neoforge-1.21.1-1.1.2-hotfix.jar"
+hash-format = "sha512"
+hash = "e3964e1bd3f8680da45c581284c132404e8b46a820ef6055a7157a08c72a44ddbf123ed37af2d5526bd3cefec3b21ae83597f87ada981a359cc4852724f68f75"
+
+[update]
+[update.modrinth]
+mod-id = "gP7RIb0Q"
+version = "PDVoFCX9"

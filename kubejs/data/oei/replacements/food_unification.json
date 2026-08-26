@@ -1,4 +1,4 @@
-[
+﻿[
   {
     "matchItems": [
       "chang_sheng_jue:apple_juice",
@@ -2046,12 +2046,11 @@
       "productivetrees:pomegranate"
     ],
     "resultItems": "pamhc2trees:pomegranateitem"
-  }
+  },
   {
     "matchItems": [
       "minecolonies:pea",
 	  "flavor_immersed_daily:pea"
     ],
     "resultItems": "flavor_immersed_daily:pea"
-  },
-]
+  }]

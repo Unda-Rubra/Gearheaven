@@ -1,0 +1,25 @@
+[
+	{
+	"match": [
+      "silentgems:silver_ore",
+      "iceandfire:silver_ore",
+	  "occultism:silver_ore"
+		],
+    "result": "silentgems:silver_ore"
+	},
+	{
+	"match": [
+      "silentgems:deepslate_silver_ore",
+      "iceandfire:deepslate_silver_ore",
+	  "occultism:silver_ore_deepslate"
+		],
+    "result": "silentgems:deepslate_silver_ore"
+	},
+	{
+	"match": [
+      "silentgems:sapphire_ore",
+      "iceandfire:sapphire_ore"
+		],
+    "result": "silentgems:sapphire_ore"
+	}
+]
