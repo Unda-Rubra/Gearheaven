@@ -1,0 +1,196 @@
+#每个区块内最多同时存在的果实实体数量（包括所有种类的水果）
+# Default: 5
+# Range: 1 ~ 100
+maxFruitsPerChunk = 5
+#结果叶每次随机刻推进一阶段成熟进度的概率（0.0-1.0），默认 0.33
+# Default: 0.33
+# Range: 0.0 ~ 1.0
+naturalFruitMaturityChance = 0.33
+#每次使用骨粉推进一阶段成熟进度的概率（0.0-1.0），默认 0.35
+# Default: 0.35
+# Range: 0.0 ~ 1.0
+boneMealFruitMaturityChance = 0.35
+#结果叶成熟时额外生成悬挂果实方块的概率（0.0-1.0），默认 0.70
+# Default: 0.7
+# Range: 0.0 ~ 1.0
+hangingFruitChance = 0.7
+#悬挂果实生成或失去支撑时转为掉落果实实体的概率（0.0-1.0），默认 0.30
+# Default: 0.3
+# Range: 0.0 ~ 1.0
+fallingFruitChance = 0.3
+#香油滑步（sesame_slip）效果总开关，关闭后食用黄油不再获得该效果
+sesameSlipEnabled = true
+#芝麻滑行效果下实体的行走高度（格），默认 2.1
+# Default: 2.1
+# Range: 0.0 ~ 10.0
+sesameSlipHeight = 2.1
+#醋酸侵蚀（acetic_erosion）效果总开关，关闭后食用醋不再获得该效果
+aceticErosionEnabled = true
+#醋酸侵蚀效果下，被攻击者每次盔甲耐久损耗时额外增加的损耗值，默认 1
+# Default: 1
+# Range: 0 ~ 100
+aceticErosionExtraDurability = 1
+#黄油投手（butter_pitcher）效果总开关，关闭后弹射物命中不再触发冻结
+butterPitcherEnabled = true
+#黄油投手效果下，弹射物命中非玩家非Boss实体时触发冻结的概率（0.0-1.0），默认 0.25
+# Default: 0.25
+# Range: 0.0 ~ 1.0
+butterPitcherFreezeChance = 0.25
+#黄油投手效果下，被冻结的时长（秒），默认 5
+# Default: 5
+# Range: 1 ~ 60
+butterPitcherFreezeDuration = 5
+#黄油投手效果是否跳过Boss实体（末影龙、凋灵、循声守卫），默认 true
+butterPitcherExcludeBoss = true
+#蘸豆，爽！（bean_fury）效果总开关，关闭后近战攻击不再触发额外暴击
+beanFuryEnabled = true
+#蘸豆，爽！效果下近战攻击触发暴击的概率（0.0-1.0），默认 0.25
+# Default: 0.25
+# Range: 0.0 ~ 1.0
+beanFuryCritChance = 0.25
+#百味之基（flavor_base）效果总开关，关闭后不再触发与生效
+flavorBaseEnabled = true
+#百味之基效果下，身上每有 1 种本模组/附属模组 buff 时攻击伤害增加值，默认 1.0
+# Default: 1.0
+# Range: 0.0 ~ 100.0
+flavorBaseDamageBonus = 1.0
+#百味之基效果下，身上每有 1 种本模组/附属模组 buff 时移动速度增加值，默认 0.1
+# Default: 0.1
+# Range: 0.0 ~ 10.0
+flavorBaseSpeedBonus = 0.1
+#百味之基效果下，加成最多叠加的次数，默认 10
+# Default: 10
+# Range: 1 ~ 100
+flavorBaseMaxStacks = 10
+#晒足一百八十天（solar_brew）效果总开关，关闭后不再触发与生效
+solarBrewEnabled = true
+#晒足一百八十天效果下，攻击露天生物时的额外火焰伤害，默认 0.5
+# Default: 0.5
+# Range: 0.0 ~ 100.0
+solarBrewOpenSkyFireDamage = 0.5
+#晒足一百八十天效果下，攻击亡灵生物时的额外火焰伤害，默认 0.5
+# Default: 0.5
+# Range: 0.0 ~ 100.0
+solarBrewUndeadFireDamage = 0.5
+#浩克大葱（hulk_leek）效果总开关，关闭后不再触发与生效
+hulkLeekEnabled = true
+#火爆狂攻（fury_assault）效果总开关，关闭后不再触发与生效
+furyAssaultEnabled = true
+#火爆狂攻效果下，每次近战攻击消耗的玩家生命值，默认 1.0
+# Default: 1.0
+# Range: 0.0 ~ 20.0
+furyAssaultHealthCost = 1.0
+#火爆狂攻效果下，前方火焰攻击的直线范围（格），默认 10.0
+# Default: 10.0
+# Range: 1.0 ~ 64.0
+furyAssaultRange = 10.0
+#火爆狂攻效果下，范围内生物受到的火焰伤害，默认 2.0
+# Default: 2.0
+# Range: 0.0 ~ 100.0
+furyAssaultFireDamage = 2.0
+#牛 - stage1→2 额外掉落
+#屠宰阶段额外掉落物，逗号分隔的物品ID（格式: modid:item_id）。空字符串表示不额外添加。
+cattleDrop1 = "flavor_immersed_daily:rawcattleblood"
+#牛 - stage2→3 额外掉落
+#屠宰阶段额外掉落物，逗号分隔的物品ID（格式: modid:item_id）。空字符串表示不额外添加。
+cattleDrop2 = "minecraft:leather,minecraft:leather,flavor_immersed_daily:rawcattlejoint,flavor_immersed_daily:rawcattlefat"
+#牛 - stage3→4 额外掉落
+#屠宰阶段额外掉落物，逗号分隔的物品ID（格式: modid:item_id）。空字符串表示不额外添加。
+cattleDrop3 = "flavor_immersed_daily:rawcattlefeet,flavor_immersed_daily:rawcattleleg,flavor_immersed_daily:rawcattlefeet,flavor_immersed_daily:rawcattleleg,flavor_immersed_daily:rawcattlefeet,flavor_immersed_daily:rawcattleleg,flavor_immersed_daily:rawcattlefeet,flavor_immersed_daily:rawcattleleg,flavor_immersed_daily:rawcattleface,flavor_immersed_daily:bullhorn,flavor_immersed_daily:bullhorn,flavor_immersed_daily:animalskull"
+#牛 - stage4→5 额外掉落
+#屠宰阶段额外掉落物，逗号分隔的物品ID（格式: modid:item_id）。空字符串表示不额外添加。
+cattleDrop4 = "flavor_immersed_daily:rawcattleintestine,flavor_immersed_daily:rawcattleliver,flavor_immersed_daily:rawcattlelung,flavor_immersed_daily:rawcattlestomach,flavor_immersed_daily:rawcattleheart"
+#牛 - stage5→0 额外掉落
+#屠宰阶段额外掉落物，逗号分隔的物品ID（格式: modid:item_id）。空字符串表示不额外添加。
+cattleDrop5 = "minecraft:beef,minecraft:beef,minecraft:beef,flavor_immersed_daily:rawcattletendon,flavor_immersed_daily:rawcattletendon,flavor_immersed_daily:rawsnowflakebeef,flavor_immersed_daily:bovinebone"
+#羊 - stage1→2 额外掉落
+#屠宰阶段额外掉落物，逗号分隔的物品ID（格式: modid:item_id）。空字符串表示不额外添加。
+sheepDrop1 = "flavor_immersed_daily:rawsheepblood"
+#羊 - stage2→3 额外掉落
+#屠宰阶段额外掉落物，逗号分隔的物品ID（格式: modid:item_id）。空字符串表示不额外添加。
+sheepDrop2 = "flavor_immersed_daily:sheepbread,flavor_immersed_daily:sheepbread,minecraft:leather,minecraft:wool,minecraft:wool,minecraft:wool,flavor_immersed_daily:rawsheepfat"
+#羊 - stage3→4 额外掉落
+#屠宰阶段额外掉落物，逗号分隔的物品ID（格式: modid:item_id）。空字符串表示不额外添加。
+sheepDrop3 = "minecraft:bone,minecraft:bone,flavor_immersed_daily:rawsheepface,flavor_immersed_daily:rawsheepfeet,flavor_immersed_daily:rawsheepfeet,flavor_immersed_daily:rawsheepfeet,flavor_immersed_daily:rawsheepfeet,flavor_immersed_daily:rawsheepleg,flavor_immersed_daily:rawsheepleg,flavor_immersed_daily:rawsheepleg,flavor_immersed_daily:rawsheepleg,flavor_immersed_daily:rawsheeptail,flavor_immersed_daily:rawsheepeye"
+#羊 - stage4→5 额外掉落
+#屠宰阶段额外掉落物，逗号分隔的物品ID（格式: modid:item_id）。空字符串表示不额外添加。
+sheepDrop4 = "flavor_immersed_daily:rawsheepintestine,flavor_immersed_daily:rawsheepstomach,flavor_immersed_daily:rawsheepliver,flavor_immersed_daily:rawsheepheart,flavor_immersed_daily:rawsheepkidney,flavor_immersed_daily:rawsheeptailfat"
+#羊 - stage5→0 额外掉落
+#屠宰阶段额外掉落物，逗号分隔的物品ID（格式: modid:item_id）。空字符串表示不额外添加。
+sheepDrop5 = ",minecraft:mutton,minecraft:mutton,minecraft:mutton,flavor_immersed_daily:rawsheepsparerib,,flavor_immersed_daily:rawsheepsparerib,flavor_immersed_daily:rawsheepspine"
+#猪 - stage1→2 额外掉落
+#屠宰阶段额外掉落物，逗号分隔的物品ID（格式: modid:item_id）。空字符串表示不额外添加。
+pigDrop1 = "flavor_immersed_daily:rawpigblood"
+#猪 - stage2→3 额外掉落
+#屠宰阶段额外掉落物，逗号分隔的物品ID（格式: modid:item_id）。空字符串表示不额外添加。
+pigDrop2 = "flavor_immersed_daily:rawpigskin,flavor_immersed_daily:rawpigskin,flavor_immersed_daily:rawpigfat"
+#猪 - stage3→4 额外掉落
+#屠宰阶段额外掉落物，逗号分隔的物品ID（格式: modid:item_id）。空字符串表示不额外添加。
+pigDrop3 = "flavor_immersed_daily:rawpigear,flavor_immersed_daily:rawpignose,flavor_immersed_daily:rawpighead,flavor_immersed_daily:rawpigtail,flavor_immersed_daily:rawpigcerebrum,flavor_immersed_daily:rawpigfeet,flavor_immersed_daily:rawpigfeet,flavor_immersed_daily:rawpigfeet,flavor_immersed_daily:rawpigfeet,flavor_immersed_daily:rawpigleg,flavor_immersed_daily:rawpigleg,flavor_immersed_daily:rawpigleg,flavor_immersed_daily:rawpigleg"
+#猪 - stage4→5 额外掉落
+#屠宰阶段额外掉落物，逗号分隔的物品ID（格式: modid:item_id）。空字符串表示不额外添加。
+pigDrop4 = "flavor_immersed_daily:rawpigintestine,flavor_immersed_daily:rawpigstomach,flavor_immersed_daily:rawpiglung,flavor_immersed_daily:rawpigliver,flavor_immersed_daily:rawpigheart,flavor_immersed_daily:rawpigkidney,flavor_immersed_daily:rawpigkidney"
+#猪 - stage5→0 额外掉落
+#屠宰阶段额外掉落物，逗号分隔的物品ID（格式: modid:item_id）。空字符串表示不额外添加。
+pigDrop5 = "flavor_immersed_daily:rawpigtenderloin,flavor_immersed_daily:rawpigstreakypork,flavor_immersed_daily:rawpigstreakypork,minecraft:porkchop,minecraft:porkchop,minecraft:porkchop,flavor_immersed_daily:rawpigsparerib,flavor_immersed_daily:rawpigsparerib"
+#鸡 - deadchicken→stage1→2 额外掉落
+#屠宰阶段额外掉落物，逗号分隔的物品ID（格式: modid:item_id）。空字符串表示不额外添加。
+chickenDrop1 = "flavor_immersed_daily:rawchickenblood"
+#鸡 - chickenwithoutfeather→stage5→6 额外掉落
+#屠宰阶段额外掉落物，逗号分隔的物品ID（格式: modid:item_id）。空字符串表示不额外添加。
+chickenDrop5 = "flavor_immersed_daily:rawchickenliver,flavor_immersed_daily:rawchickenheart,flavor_immersed_daily:rawchickengizzard"
+#鸡 - stage6→0 额外掉落
+#屠宰阶段额外掉落物，逗号分隔的物品ID（格式: modid:item_id）。空字符串表示不额外添加。
+chickenDrop6 = "flavor_immersed_daily:rawchickenneck,flavor_immersed_daily:rawchickenwing,flavor_immersed_daily:rawchickenwing,flavor_immersed_daily:rawchickenwingtip,flavor_immersed_daily:rawchickenwingtip,flavor_immersed_daily:rawhalfofchickenleg,flavor_immersed_daily:rawhalfofchickenleg,flavor_immersed_daily:rawchickenlean,flavor_immersed_daily:rawchickenhead,flavor_immersed_daily:rawchickenleg,flavor_immersed_daily:rawchickenleg,flavor_immersed_daily:rawchickenass,flavor_immersed_daily:rawchickenfeet,flavor_immersed_daily:rawchickenfeet,flavor_immersed_daily:rawchickenbreast,flavor_immersed_daily:rawchickenbreast,minecraft:chicken,flavor_immersed_daily:rawchickenfork"
+#chickenwithoutblood在木盆中漂洗后的额外战利品，逗号分隔的物品ID
+#屠宰阶段额外掉落物，逗号分隔的物品ID（格式: modid:item_id）。空字符串表示不额外添加。
+washedChickenDrops = "minecraft:feather,minecraft:feather,minecraft:feather"
+#温带野果鉴定额外掉落物
+#野生采集物在农产鉴定机中鉴定时的额外掉落物，逗号分隔的物品ID（格式: modid:item_id）。会随机生成1-3个的掉落物。
+temperateWildFruitDrops = "flavor_immersed_daily:strawberry,flavor_immersed_daily:winterjujube,flavor_immersed_daily:pear,flavor_immersed_daily:plum,flavor_immersed_daily:kiwifruit,flavor_immersed_daily:lemon,flavor_immersed_daily:grape,flavor_immersed_daily:greengrape,flavor_immersed_daily:loquat,flavor_immersed_daily:apricot,flavor_immersed_daily:honeypeach,flavor_immersed_daily:nectarine,flavor_immersed_daily:pomegranate,flavor_immersed_daily:mulberry,flavor_immersed_daily:tomato,flavor_immersed_daily:tangerine,flavor_immersed_daily:sweetmelon,minecraft:apple,croptopia:blackberry,croptopia:blueberry,croptopia:currant,croptopia:elderberry,croptopia:grape,croptopia:kiwi,croptopia:raspberry,croptopia:strawberry,croptopia:fig,croptopia:olive"
+#热带野果鉴定额外掉落物
+#野生采集物在农产鉴定机中鉴定时的额外掉落物，逗号分隔的物品ID（格式: modid:item_id）。会随机生成1-3个的掉落物。
+tropicalWildFruitDrops = "flavor_immersed_daily:pineapple,flavor_immersed_daily:orange,flavor_immersed_daily:hamimelon,flavor_immersed_daily:dragonfruit,flavor_immersed_daily:lychee,flavor_immersed_daily:durian,flavor_immersed_daily:mango,flavor_immersed_daily:pawpaw,flavor_immersed_daily:banana,flavor_immersed_daily:carambola,flavor_immersed_daily:mangosteen,flavor_immersed_daily:coconut,minecraft:melon,croptopia:avocado,croptopia:banana,croptopia:date,croptopia:dragonfruit,croptopia:grapefruit,croptopia:kumquat,croptopia:lime,croptopia:mango,croptopia:pineapple,croptopia:starfruit,croptopia:coconut,croptopia:persimmon"
+#野花花叶鉴定额外掉落物
+#野生采集物在农产鉴定机中鉴定时的额外掉落物，逗号分隔的物品ID（格式: modid:item_id）。会随机生成1-3个的掉落物。
+wildFlowerAndLeafDrops = "flavor_immersed_daily:chineseleaves,flavor_immersed_daily:spinach,flavor_immersed_daily:sacllion,flavor_immersed_daily:cucumber,flavor_immersed_daily:chinesechives,flavor_immersed_daily:waxgourd,flavor_immersed_daily:greentealeaves,flavor_immersed_daily:redtealeaves,flavor_immersed_daily:cauliflower,flavor_immersed_daily:zucchini,flavor_immersed_daily:broccoil,flavor_immersed_daily:cowpea,flavor_immersed_daily:loofah,flavor_immersed_daily:kidneybean,flavor_immersed_daily:tomato,flavor_immersed_daily:aubergine,flavor_immersed_daily:celery,flavor_immersed_daily:gumbo,flavor_immersed_daily:oilseedrape,flavor_immersed_daily:cabbage,croptopia:artichoke_seed,croptopia:asparagus_seed,croptopia:basil_seed,croptopia:bellpepper_seed,croptopia:broccoli_seed,croptopia:cabbage_seed,croptopia:cantaloupe_seed,croptopia:cauliflower_seed,croptopia:celery_seed,croptopia:chile_pepper_seed,croptopia:cucumber_seed,croptopia:eggplant_seed,croptopia:garlic_seed,croptopia:ginger_seed,croptopia:greenonion_seed,croptopia:honeydew_seed,croptopia:kale_seed,croptopia:leek_seed,croptopia:lettuce_seed,croptopia:mustard_seed,croptopia:onion_seed,croptopia:pepper_seed,croptopia:rhubarb_seed,croptopia:spinach_seed,croptopia:squash_seed,croptopia:tomatillo_seed,croptopia:tomato_seed,croptopia:turmeric_seed,croptopia:turnip_seed,croptopia:zucchini_seed"
+#寒带野果鉴定额外掉落物
+#野生采集物在农产鉴定机中鉴定时的额外掉落物，逗号分隔的物品ID（格式: modid:item_id）。会随机生成1-3个的掉落物。
+wildFruitInColdZoneDrops = "flavor_immersed_daily:blueberry,flavor_immersed_daily:greenplum,flavor_immersed_daily:hawthorn,flavor_immersed_daily:cherry,flavor_immersed_daily:reddate,flavor_immersed_daily:walnut,flavor_immersed_daily:pistachionut,croptopia:cranberry"
+#野生谷物鉴定额外掉落物
+#野生采集物在农产鉴定机中鉴定时的额外掉落物，逗号分隔的物品ID（格式: modid:item_id）。会随机生成1-3个的掉落物。
+wildGrainPlantDrops = "flavor_immersed_daily:paddyseeds,flavor_immersed_daily:millet,flavor_immersed_daily:oat,flavor_immersed_daily:glutinousseeds,flavor_immersed_daily:red_bean_block,flavor_immersed_daily:mungbean,flavor_immersed_daily:peanut,flavor_immersed_daily:kao_liang_seed,flavor_immersed_daily:soybean,flavor_immersed_daily:buckwheat,flavor_immersed_daily:corn,flavor_immersed_daily:pea,flavor_immersed_daily:coffeebeanseed,minecraft:wheat_seeds,croptopia:barley_seed,croptopia:corn_seed,croptopia:oat_seed,croptopia:rice_seed,croptopia:soybean_seed,croptopia:peanut_seed,croptopia:blackbean_seed,croptopia:greenbean_seed"
+#野生菌菇鉴定额外掉落物
+#野生采集物在农产鉴定机中鉴定时的额外掉落物，逗号分隔的物品ID（格式: modid:item_id）。会随机生成1-3个的掉落物。
+wildMushroomPlantDrops = "minecraft:red_mushroom,minecraft:brown_mushroom,flavor_immersed_daily:whitemushroom,flavor_immersed_daily:enokimushroom,flavor_immersed_daily:tremella,flavor_immersed_daily:blackfungus,flavor_immersed_daily:fragrantmushroom,flavor_immersed_daily:pleurotuseryngii"
+#野生籽叶鉴定额外掉落物
+#野生采集物在农产鉴定机中鉴定时的额外掉落物，逗号分隔的物品ID（格式: modid:item_id）。会随机生成1-3个的掉落物。
+wildSeedPlantDrops = "flavor_immersed_daily:aniseed_0,flavor_immersed_daily:lilac_seed,flavor_immersed_daily:cinnamon,flavor_immersed_daily:si_chuan_pepper_seed,flavor_immersed_daily:fennel,flavor_immersed_daily:greenpepper,flavor_immersed_daily:redrepper,flavor_immersed_daily:sweetgreenpepper,flavor_immersed_daily:nutmeg,flavor_immersed_daily:sesame,flavor_immersed_daily:cumin,flavor_immersed_daily:garlic,flavor_immersed_daily:ginger,flavor_immersed_daily:onion,flavor_immersed_daily:nutmegseed,croptopia:coffee_seed,croptopia:hops_seed,croptopia:olive_seed,croptopia:saguaro_seed,croptopia:tea_seed,croptopia:vanilla_seeds"
+#野生块茎鉴定额外掉落物
+#野生采集物在农产鉴定机中鉴定时的额外掉落物，逗号分隔的物品ID（格式: modid:item_id）。会随机生成1-3个的掉落物。
+wildTuberPlantsDrops = "flavor_immersed_daily:sweetpotato,flavor_immersed_daily:cassava,flavor_immersed_daily:radish,flavor_immersed_daily:lotusroot,flavor_immersed_daily:chineseyam,flavor_immersed_daily:purplesweetpotato,flavor_immersed_daily:mustard,flavor_immersed_daily:onion,minecraft:potato,minecraft:carrot,croptopia:radish_seed,croptopia:rutabaga_seed,croptopia:sweetpotato_seed,croptopia:yam_seed"
+#邪祟暴露（expose_evil）效果总开关，关闭后不再触发与生效
+exposeEvilEnabled = true
+#邪祟暴露效果下，近战攻击村民转化为僵尸村民的概率（0.0-1.0），默认 0.15
+# Default: 0.15
+# Range: 0.0 ~ 1.0
+exposeEvilZombieChance = 0.15
+#邪祟暴露效果下，被手持血液攻击时受到的灼烧伤害，默认 4.0
+# Default: 4.0
+# Range: 0.0 ~ 100.0
+exposeEvilBloodFireDamage = 4.0
+#武圣（guan_yu_strike）效果下，食物攻击转化的真实伤害上限，默认 8.0
+# Default: 8.0
+# Range: 0.0 ~ 100.0
+guanYuStrikeMaxRealDamage = 8.0
+#八角镇香（aniseed_ward）效果总开关，关闭后不再触发与生效
+aniseedWardEnabled = true
+#八角镇香效果下，周围亡灵生物被赋予减速的半径范围（格），默认 8
+# Default: 8.0
+# Range: 1.0 ~ 64.0
+aniseedWardRadius = 8.0
+#是否启用 bighook 抓取生物功能：手持挂勾攻击当前生命值低于自己且非敌对/非Boss的生物（含其他玩家）时，可将其拿起
+#玩家潜行（shift）无法挣脱时（此开关关闭）只能通过手里不再持有挂勾来放下生物
+bighookCarryEnabled = true
+#是否允许被抓取的生物或者挂在挂钩上的生物通过潜行（shift）挣脱/被放下
+bighookShiftEscapeEnabled = true

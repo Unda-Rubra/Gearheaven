@@ -1,0 +1,27 @@
+{
+  "values": [
+    "natures_spirit:oak_savanna",
+    "natures_spirit:arid_savanna",
+    "#minecraft:is_savanna",
+    {
+      "id": "#c:is_savanna",
+      "required": false
+    },
+    {
+      "id": "biomesoplenty:scrubland",
+      "required": false
+    },
+    {
+      "id": "terralith:ashen_savanna",
+      "required": false
+    },
+    {
+      "id": "terralith:savanna_badlands",
+      "required": false
+    },
+    {
+      "id": "terralith:savanna_slopes",
+      "required": false
+    }
+  ]
+}

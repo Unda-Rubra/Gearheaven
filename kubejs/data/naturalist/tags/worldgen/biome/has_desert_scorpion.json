@@ -1,0 +1,12 @@
+{
+  "values": [
+    "natures_spirit:drylands",
+    "natures_spirit:stratified_desert",
+    "minecraft:desert",
+    "#minecraft:is_badlands",
+    {
+      "id": "biomesoplenty:lush_desert",
+      "required": false
+    }
+  ]
+}

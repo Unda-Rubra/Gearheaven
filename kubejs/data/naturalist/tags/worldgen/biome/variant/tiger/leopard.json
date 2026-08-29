@@ -1,0 +1,16 @@
+{
+  "values": [
+    "minecraft:sparse_jungle",
+    "#minecraft:is_mountain",
+    "#minecraft:is_badlands",
+    "minecraft:desert",
+    {
+      "id": "biomesoplenty:rainforest",
+      "required": false
+    },
+    {
+      "id": "terralith:cloud_forest",
+      "required": false
+    }
+  ]
+}

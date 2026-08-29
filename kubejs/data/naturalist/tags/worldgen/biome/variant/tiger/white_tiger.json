@@ -1,0 +1,21 @@
+{
+  "values": [
+    "minecraft:bamboo_jungle",
+    "minecraft:cherry_grove",
+    "minecraft:snowy_plains",
+    "minecraft:snowy_slopes",
+    "minecraft:grove",
+    {
+      "id": "biomesoplenty:snowblossom_grove",
+      "required": false
+    },
+    {
+      "id": "biomesoplenty:snowy_maple_woods",
+      "required": false
+    },
+    {
+      "id": "terralith:wintry_forest",
+      "required": false
+    }
+  ]
+}

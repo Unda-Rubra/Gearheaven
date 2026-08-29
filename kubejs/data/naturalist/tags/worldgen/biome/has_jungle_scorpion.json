@@ -1,0 +1,11 @@
+{
+  "values": [
+    "natures_spirit:tropical_woods",
+    "natures_spirit:tropical_basin",
+    "#minecraft:is_jungle",
+    {
+      "id": "biomesoplenty:rainforest",
+      "required": false
+    }
+  ]
+}
