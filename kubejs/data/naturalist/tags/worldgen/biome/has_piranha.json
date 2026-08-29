@@ -1,0 +1,15 @@
+{
+  "values": [
+    "natures_spirit:tropical_woods",
+    "natures_spirit:tropical_basin",
+    {
+      "id": "#minecraft:is_jungle",
+      "required": false
+    },
+    {
+      "id": "#c:is_jungle",
+      "required": false
+    },
+    "minecraft:lush_caves"
+  ]
+}

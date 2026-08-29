@@ -1,0 +1,47 @@
+{
+  "values": [
+    "natures_spirit:tropical_woods",
+    "natures_spirit:tropical_basin",
+    "natures_spirit:tropical_shores",
+    "#minecraft:is_jungle",
+    "#minecraft:is_river",
+    "minecraft:beach",
+    "minecraft:stony_shore",
+    {
+      "id": "#c:is_beach",
+      "required": false
+    },
+    {
+      "id": "#c:is_jungle",
+      "required": false
+    },
+    {
+      "id": "#c:is_river",
+      "required": false
+    },
+    {
+      "id": "biomesoplenty:rainforest",
+      "required": false
+    },
+    {
+      "id": "terralith:amethyst_rainforest",
+      "required": false
+    },
+    {
+      "id": "terralith:jungle_mountains",
+      "required": false
+    },
+    {
+      "id": "terralith:rocky_jungle",
+      "required": false
+    },
+    {
+      "id": "terralith:tropical_jungle",
+      "required": false
+    },
+    {
+      "id": "terralith:warm_river",
+      "required": false
+    }
+  ]
+}

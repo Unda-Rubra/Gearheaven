@@ -1,0 +1,12 @@
+{
+  "values": [
+    "natures_spirit:tropical_shores",
+    "natures_spirit:white_cliffs",
+    "minecraft:beach",
+    "minecraft:stony_shore",
+    {
+      "id": "#c:is_beach",
+      "required": false
+    }
+  ]
+}
