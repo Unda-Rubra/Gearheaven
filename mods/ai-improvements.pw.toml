@@ -1,6 +1,6 @@
 name = "AI Improvements"
 filename = "AI-Improvements-1.21-0.5.3.jar"
-side = "server"
+side = "both"
 
 [download]
 url = "https://cdn.modrinth.com/data/DSVgwcji/versions/dGNP90t0/AI-Improvements-1.21-0.5.3.jar"
